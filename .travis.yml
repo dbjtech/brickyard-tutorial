@@ -1,0 +1,18 @@
+language: node_js
+
+node_js:
+  - "node"
+  - "7.0.0"
+
+before_script:
+  - npm i brickyard-cli -g
+
+script:
+  - brickyard build tutorial-angular2-plan --dir build-angular2
+  - brickyard build tutorial-react-plan --dir build-react
+  - brickyard build tutorial-react-native-plan --dir build-react-native
+  - brickyard build tutorial-vue-counter --dir build-vue-counter
+  - brickyard build tutorial-vue-counter-hot --dir build-vue-counter-hot
+  - brickyard build tutorial-vue-shopping-cart --dir build-vue-shopping-cart
+  - brickyard build tutorial-vue-todo --dir build-vue-todo
+  - brickyard build tutorial-vue-chat --dir build-vue-chat
