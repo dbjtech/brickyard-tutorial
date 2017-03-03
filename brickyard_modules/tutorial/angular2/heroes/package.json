@@ -1,0 +1,9 @@
+{
+  "name": "tutorial-angular2-heroes",
+  "brickyard-module-type": "frontend",
+  "version": "0.0.1",
+  "description": "frontend for tutorial-angular2-heroes",
+  "main": "heroes.component.ts",
+  "author": "brickyard-developer",
+  "license": "ISC"
+}

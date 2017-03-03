@@ -1,0 +1,16 @@
+{
+  "name": "tutorial-react-native-app",
+  "brickyard-module-type": "frontend",
+  "version": "0.0.1",
+  "description": "frontend for tutorial-react-native-app",
+  "main": "index.js",
+  "author": "brickyard-developer",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-md5": "^2.5.0",
+    "native-base": "^0.5.9",
+    "react-native-root-toast": "^1.0.3",
+    "react-native-vector-icons": "^3.0.0",
+    "react-router": "^4.0.0-alpha.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tutorial-vue-chat",
+  "brickyard-module-type": "plan",
+  "version": "0.0.1",
+  "description": "plan for tutorial-vue-chat",
+  "main": "index.js",
+  "author": "brickyard-developer",
+  "license": "ISC"
+}

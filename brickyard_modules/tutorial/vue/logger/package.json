@@ -1,0 +1,9 @@
+{
+  "name": "tutorial-vue-logger",
+  "brickyard-module-type": "frontend",
+  "version": "0.0.1",
+  "description": "frontend for tutorial-vue-logger",
+  "main": "plugins/logger.js",
+  "author": "brickyard-developer",
+  "license": "ISC"
+}

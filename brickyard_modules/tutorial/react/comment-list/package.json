@@ -1,0 +1,12 @@
+{
+  "name": "tutorial-react-comment-list",
+  "brickyard-module-type": "frontend",
+  "version": "0.0.1",
+  "description": "frontend for tutorial-react-comment-list",
+  "main": "index.jsx",
+  "author": "brickyard-developer",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^15.3.2"
+  }
+}

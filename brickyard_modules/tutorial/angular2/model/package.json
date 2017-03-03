@@ -1,0 +1,9 @@
+{
+  "name": "tutorial-angular2-model",
+  "brickyard-module-type": "frontend",
+  "version": "0.0.1",
+  "description": "frontend for tutorial-angular2-model",
+  "main": "index.ts",
+  "author": "brickyard-developer",
+  "license": "ISC"
+}

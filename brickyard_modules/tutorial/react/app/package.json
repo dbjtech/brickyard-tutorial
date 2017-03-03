@@ -1,0 +1,13 @@
+{
+  "name": "tutorial-react-app",
+  "brickyard-module-type": "frontend",
+  "version": "0.0.1",
+  "description": "frontend for tutorial-react-app",
+  "main": "index.jsx",
+  "author": "brickyard-developer",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}

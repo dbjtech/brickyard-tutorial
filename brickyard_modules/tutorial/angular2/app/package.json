@@ -1,0 +1,21 @@
+{
+  "name": "tutorial-angular2-app",
+  "brickyard-module-type": "frontend",
+  "version": "0.0.1",
+  "description": "frontend for tutorial-angular2-app",
+  "main": "index.ts",
+  "author": "brickyard-developer",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/common": "^2.0.2",
+    "@angular/compiler": "^2.0.2",
+    "@angular/core": "^2.0.2",
+    "@angular/forms": "^2.0.2",
+    "@angular/http": "^2.0.2",
+    "@angular/platform-browser": "^2.0.2",
+    "@angular/platform-browser-dynamic": "^2.0.2",
+    "@angular/router": "^3.0.2",
+    "angular-in-memory-web-api": "^0.1.5",
+    "bootstrap": "^3.3.7"
+  }
+}

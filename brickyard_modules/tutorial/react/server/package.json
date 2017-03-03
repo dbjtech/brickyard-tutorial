@@ -1,0 +1,13 @@
+{
+  "name": "tutorial-react-server",
+  "brickyard-module-type": "backend",
+  "version": "0.0.1",
+  "description": "backend for tutorial-react-server",
+  "main": "index.js",
+  "author": "brickyard-developer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5"
+  }
+}
