@@ -7,6 +7,8 @@ Using [brickyard-cli](https://github.com/dbjtech/brickyard-cli) to build these s
 
 # Prepare
 
+Install NodeJS 7.0.0 or above
+
 Install brickyard-cli
   ```bash
   npm i -g brickyard-cli
