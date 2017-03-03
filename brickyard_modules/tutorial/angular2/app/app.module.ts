@@ -1,5 +1,4 @@
-import { NgModule }      from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule, enableProdMode }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 import { HttpModule }    from '@angular/http';
@@ -12,9 +11,13 @@ import { HeroesComponent }      from 'brickyard/tutorial-angular2-heroes';
 import { HeroDetailComponent }  from 'brickyard/tutorial-angular2-hero-detail';
 import { HeroService, InMemoryDataService } from 'brickyard/tutorial-angular2-model';
 import { HeroSearchComponent }  from 'brickyard/tutorial-angular2-hero-search';
+
+if (process.env && process.env.NODE_ENV === 'production') {
+  enableProdMode()
+}
+
 @NgModule({
   imports: [
-    CommonModule,
     BrowserModule,
     FormsModule,
     HttpModule,
