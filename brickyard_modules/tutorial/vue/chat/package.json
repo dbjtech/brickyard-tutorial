@@ -7,7 +7,7 @@
   "author": "brickyard-developer",
   "license": "ISC",
   "devDependencies": {
-    "vue": "^2.1.10",
-    "vuex": "^2.1.2"
+    "vue": "^2.4.2",
+    "vuex": "^2.3.1"
   }
 }
