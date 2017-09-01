@@ -7,7 +7,7 @@
   "author": "brickyard-developer",
   "license": "ISC",
   "devDependencies": {
-    "jquery": "^3.1.1",
-    "react": "^15.3.2"
+    "jquery": "^3.2.1",
+    "react": "^15.6.1"
   }
 }
