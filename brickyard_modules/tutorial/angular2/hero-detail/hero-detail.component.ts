@@ -2,6 +2,8 @@ import { Component, OnInit }      from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Location }               from '@angular/common';
 import { Hero, HeroService }      from 'brickyard/tutorial-angular2-model';
+import { ngxModuleCollector }     from '@brickyard/ngx-module-collector';
+
 @Component({
   selector: 'my-hero-detail',
   templateUrl: './hero-detail.component.html',
@@ -29,3 +31,5 @@ export class HeroDetailComponent implements OnInit {
     this.location.back();
   }
 }
+
+ngxModuleCollector.registerNgModuleDeclarations(HeroDetailComponent)

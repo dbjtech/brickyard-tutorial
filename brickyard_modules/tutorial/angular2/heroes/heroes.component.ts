@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router }            from '@angular/router';
 import { Hero, HeroService } from 'brickyard/tutorial-angular2-model';
+import { ngxModuleCollector }from '@brickyard/ngx-module-collector';
+
 @Component({
   selector: 'my-heroes',
   templateUrl: './heroes.component.html',
@@ -44,3 +46,5 @@ export class HeroesComponent implements OnInit {
     this.router.navigate(['/detail', this.selectedHero.id]);
   }
 }
+
+ngxModuleCollector.registerNgModuleDeclarations(HeroesComponent)

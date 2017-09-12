@@ -1,4 +1,7 @@
 import { InMemoryDbService } from 'angular-in-memory-web-api';
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { ngxModuleCollector }from '@brickyard/ngx-module-collector';
+
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     let heroes = [
@@ -16,3 +19,5 @@ export class InMemoryDataService implements InMemoryDbService {
     return {heroes};
   }
 }
+
+ngxModuleCollector.registerNgModuleImports(InMemoryWebApiModule.forRoot(InMemoryDataService))

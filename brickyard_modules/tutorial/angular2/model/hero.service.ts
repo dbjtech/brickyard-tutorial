@@ -1,7 +1,9 @@
 import { Injectable }    from '@angular/core';
-import { Headers, Http } from '@angular/http';
+import { HttpModule, Headers, Http } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
 import { Hero } from './hero';
+import { ngxModuleCollector }from '@brickyard/ngx-module-collector';
+
 @Injectable()
 export class HeroService {
   private headers = new Headers({'Content-Type': 'application/json'});
@@ -44,3 +46,6 @@ export class HeroService {
     return Promise.reject(error.message || error);
   }
 }
+
+ngxModuleCollector.registerNgModuleImports(HttpModule)
+ngxModuleCollector.registerNgModuleProviders(HeroService)

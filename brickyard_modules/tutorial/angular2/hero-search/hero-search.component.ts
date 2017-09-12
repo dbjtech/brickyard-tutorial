@@ -4,6 +4,8 @@ import { Observable }        from 'rxjs/Observable';
 import { Subject }           from 'rxjs/Subject';
 import { HeroSearchService } from './hero-search.service';
 import { Hero } from 'brickyard/tutorial-angular2-model';
+import { ngxModuleCollector }     from '@brickyard/ngx-module-collector';
+
 @Component({
   selector: 'hero-search',
   templateUrl: './hero-search.component.html',
@@ -40,3 +42,5 @@ export class HeroSearchComponent implements OnInit {
     this.router.navigate(link);
   }
 }
+
+ngxModuleCollector.registerNgModuleDeclarations(HeroSearchComponent)
